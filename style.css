@@ -1,0 +1,54 @@
+*{
+    margin: 0s;
+    padding: 0;
+}
+.container32{
+    background: linear-gradient(329deg, #444, #000000, #000000, #168d3f, #000, #d8d4d4);
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 40s ease infinite;
+    -moz-animation: AnimationName 40s ease infinite;
+    -o-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+    position: absolute;
+    bottom: 0%;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:38% 0%}
+    50%{background-position:63% 100%}
+    100%{background-position:38% 0%}
+}
+#navbarText{
+    color: #FFFF;
+}
+#firsth1{
+    position: absolute;
+    right: 5%;
+    color: #1DB954;
+    font-weight: bolder;
+}
+#soci:hover{
+    cursor: pointer;
+    color: #000000;
+}
+#login-form{
+    transition: visibility 0.05s, opacity 0.15s linear;
+}
+
